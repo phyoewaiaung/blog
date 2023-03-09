@@ -3,6 +3,7 @@
 <img src="public/blog.png" width="600" height="200" />
 <img src="public/detail.png" width="600" height="200" />
 </p>
+
 ***You can run this project by following the steps that I mentioned below.***<br>
   &emsp;***Step1***: clone the github repo to your local project folder.<br>
   &emsp;***Step2***: In your cloned folder, rename *.env.example*  :arrow_right: *.env* and in .env file you need to change your database name<br>
