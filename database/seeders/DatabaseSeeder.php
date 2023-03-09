@@ -7,6 +7,7 @@ use App\Models\Article;
 use App\Models\Comment;
 use App\Models\Category;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,10 +26,12 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'phyoe',
             'email' => 'phyoe@gmail.com',
+            'password' => Hash::make('12345')
         ]);
         User::factory()->create([
             'name' => 'phoo',
             'email' => 'phoo@gmail.com',
+            'password' => Hash::make('12345')
         ]);
     }
 }
